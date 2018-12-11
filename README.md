@@ -9,4 +9,6 @@ Download the HKUST streaming lecture video by parsing and getting the ts url lin
 3. Open the browser development console, in Chrome example, by `cmd` + `option` + `j`
 4. Copy and paste the code from `index.js` to Chrome console
 
-The lecture video ts files will then download automatically, and will stop after all are downloaded
+The lecture video ts files will then download automatically, and will stop after all files are downloaded, usually 4xx ~ 5xx files for a lecture class.
+
+## How to combine the ts files

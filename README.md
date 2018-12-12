@@ -12,3 +12,20 @@ Download the HKUST streaming lecture video by parsing and getting the ts url lin
 The lecture video ts files will then download automatically, and will stop after all files are downloaded, usually 4xx ~ 5xx files for a lecture class.
 
 ## How to combine the ts files
+
+If you don't want to store so many separate files, you could combine them into one.
+
+### Mac / Linux
+
+Type the following commands in the terminal:
+
+```Shell
+printf '%s\n' *.ts(n) > tslist
+while read line; do cat $line >> full.ts; done < tslist
+```
+
+:point_up_2: Might have even simplier ways to do it, feel free to let me know
+
+### Python script
+
+Run the concat python script by `python3 concat.py`

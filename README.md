@@ -2,6 +2,11 @@
 
 Download the HKUST streaming lecture video by parsing and getting the ts url link, then download them individually.
 
+## Alternative & easier way to Download Lecture Video
+
+There's a great open-source extension developed for Chrome, and it's working as of 20/12/2018. Feel free to use it for a quick solution:
+[HLS-Downloader](https://github.com/puemos/hls-downloader-chrome-extension)
+
 ## How to use
 
 1. Log in UST CAS / [UST canvas](https://canvas.ust.hk)
